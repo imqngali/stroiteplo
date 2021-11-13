@@ -1,5 +1,5 @@
 .advantage {
-  margin-top: -10px;
+  margin-top: 124px;
 }
 .advantage_items {
   display: flex;
@@ -39,20 +39,20 @@
 .services.margin {
   margin-top: 200px;
 }
-.services > p {
+.services > div > p {
   font-size: 30px;
   line-height: 30px;
   letter-spacing: 0.12px;
   max-width: 430px;
 }
-.services > img {
+.services > div > img {
   display: block;
   width: 265px;
   height: 52px;
   margin-top: 80px;
   object-fit: scale-down;
 }
-.services > img.right {
+.services > div > img.right {
   margin-left: auto;
   margin-right: 260px;
 }
@@ -65,27 +65,30 @@
   margin-top: 45px;
 }
 .services_inner > div {
+  height: 100%;
+}
+.services_inner > div > div {
   margin: 0 55px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
-.services_inner > div > div:first-child {
+.services_inner > div > div > div:first-child {
   display: flex;
   justify-content: space-between;
 }
-.services_inner > div > div:first-child > div > p {
+.services_inner > div > div > div:first-child > div > p {
   max-width: 320px;
   font-size: 30px;
   line-height: 36px;
   margin-top: 35px;
 }
-.services_inner > div > div:first-child > div > div {
+.services_inner > div > div > div:first-child > div > div {
   margin-top: 60px;
   display: flex;
 }
-.services_inner > div > div:first-child > div > div > button {
+.services_inner > div > div > div:first-child > div > div > button {
   background: #4C73ED;
   border: none;
   border-radius: 7px;
@@ -97,47 +100,47 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.services_inner > div > div:first-child > div > div > button:hover {
+.services_inner > div > div > div:first-child > div > div > button:hover {
   background: #4C7394;
 }
-.services_inner > div > div:first-child > div > div > div {
+.services_inner > div > div > div:first-child > div > div > div {
   margin-left: 30px;
 }
-.services_inner > div > div:first-child > div > div > div > h1 {
+.services_inner > div > div > div:first-child > div > div > div > h1 {
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.12px;
 }
-.services_inner > div > div:first-child > div > div > div > span {
+.services_inner > div > div > div:first-child > div > div > div > span {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.08px;
 }
-.services_inner > div > div:first-child > img {
+.services_inner > div > div > div:first-child > img {
   width: 430px;
   height: 450px;
   margin-top: -200px;
   object-fit: scale-down;
 }
-.services_inner > div > div:first-child > img.margin {
+.services_inner > div > div > div:first-child > img.margin {
   margin-top: -200px;
 }
-.services_inner > div > div:last-child {
+.services_inner > div > div > div:last-child {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
 }
-.services_inner > div > div:last-child > div {
+.services_inner > div > div > div:last-child > div {
   display: flex;
   align-items: center;
 }
-.services_inner > div > div:last-child > div > img {
+.services_inner > div > div > div:last-child > div > img {
   width: 135px;
   height: 135px;
 }
-.services_inner > div > div:last-child > div > p {
+.services_inner > div > div > div:last-child > div > p {
   font-size: 18px;
   line-height: 21.6px;
   letter-spacing: 0.07px;
@@ -184,7 +187,7 @@
 .about_item > p {
   font-weight: 700;
   font-size: 16px;
-  list-style: 19.2px;
+  line-height: 19.2px;
   letter-spacing: 0.06px;
   max-width: 180px;
   margin-top: 25px;

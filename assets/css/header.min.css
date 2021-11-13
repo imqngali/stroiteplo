@@ -1,9 +1,17 @@
 header {
   background-image: url(../images/header-bg.png);
   width: 100%;
-  height: 530px;
+  height: 396px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+header > div {
+  background-image: url(../images/header_content.png);
+  width: 100%;
+  height: 530px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
 }
 
 .header_top {
@@ -44,15 +52,15 @@ header {
   margin: 0 30px;
   margin-top: 80px;
 }
-.header_content > h1 {
+.header_content > div > h1 {
   font-weight: 400;
   text-transform: uppercase;
 }
-.header_content > h1 span {
+.header_content > div > h1 span {
   color: #4C73ED;
   font-weight: 700;
 }
-.header_content > button {
+.header_content > div > button {
   margin-top: 50px;
   background: #4C73ED;
   border: none;
@@ -65,6 +73,6 @@ header {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.header_content > button:hover {
+.header_content > div > button:hover {
   background: #4C7394;
 }
