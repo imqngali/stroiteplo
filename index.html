@@ -21,6 +21,25 @@
 </head>
 <body>
 
+    <div id="openModal" class="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Введите ваши данные</h3>
+              <a href="#close" title="Close" class="close">×</a>
+            </div>
+            <div class="modal-body">   
+                <form action="https://formspree.io/f/mknkdrkr"
+                method="POST">
+                    <input type="text" name="message" placeholder="Имя">
+                    <input type="tel" name="message" placeholder="+7 777 777 77 77">
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <div class="page">
 
         <header>
@@ -64,7 +83,7 @@
                         
                         <h1 class="aos aos--second" data-aos="fade-right">ГАЗОВЫЕ <span>КОТЛЫ</span><br>ОТОПЛЕНИЯ</h1>
                 
-                        <button class="aos aos--second" data-aos="fade-right">Отправить заявку</button>
+                        <a class="aos aos--second" data-aos="fade-right" style="color: #fff;" href="#openModal">Отправить заявку</a>
                     </div>
                 </div>
         
@@ -124,7 +143,7 @@
                                     <div class="aos aos--second" data-aos="fade-right">
                                         <p class="mb_none">«Газовые котлы Китурами в Алматы».</p>
                                         <div>
-                                            <button>Отправить заявку</button>
+                                            <a class="aos aos--second" data-aos="fade-right" style="color: #fff;" href="#openModal">Отправить заявку</a>
                                             <div>
                                                 <h1>Агв 18 кВв –</h1>
                                                 <span>Цена от 230 000 тг</span>
@@ -162,7 +181,7 @@
                                 <div class="aos aos--second" data-aos="fade-left">
                                     <p class="mb_none">«Газовые котлы Хаберт в Алматы».</p>
                                     <div>
-                                        <button>Отправить заявку</button>
+                                        <a class="aos aos--second" data-aos="fade-right" style="color: #fff;" href="#openModal">Отправить заявку</a>
                                         <div>
                                             <h1>Агв 18 кВв –</h1>
                                             <span>Цена от 230 000 тг</span>
@@ -197,7 +216,7 @@
                                 <div class="aos aos--second" data-aos="fade-right">
                                     <p class="mb_none">«Газовые котлы Samsung в Алматы».</p>
                                     <div>
-                                        <button>Отправить заявку</button>
+                                        <a class="aos aos--second" data-aos="fade-right" style="color: #fff;" href="#openModal">Отправить заявку</a>
                                         <div>
                                             <h1>Агв 18 кВв –</h1>
                                             <span>Цена от 230 000 тг</span>
@@ -356,7 +375,7 @@
                         <h1>СтроимТепло</h1>
                         <span>© 2021 СтроимТепло</span>
                     </div>
-                    <p>Разработка landing page - <strong>Dynamica.kz</strong></p>
+                    <p>Разработка landing page - <a target="_blank" href="https://dynamica.kz">Dynamica.kz</a></p>
                 </div>
             </footer>
         </div>
