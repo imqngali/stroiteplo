@@ -9,7 +9,7 @@ html{
 body {
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
+    font-family: 'Nunito', sans-serif;
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
@@ -179,6 +179,7 @@ body {
     margin-left: 20px;
   }
   .advantage > div {
+    margin: 0 20px;
     margin-top: 90px;
   }
   .advantage > div > p {
@@ -447,11 +448,12 @@ body {
   footer > div:nth-child(1) {
     align-items: center;
   }
-  footer > div:nth-child(1) > h1 {
+  footer > div:nth-child(1) > a {
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.096px;
+    color: #000;
   }
   footer > div:nth-child(1) > div {
     display: flex;
@@ -486,12 +488,14 @@ body {
     line-height: 17px;
     letter-spacing: -0.393921px;
   }
-  footer > div:nth-child(2) > div > p {
+  footer > div:nth-child(2) > div > p, a {
+    display: block;
     font-weight: 900;
     font-size: 14px;
     line-height: 17px;
     letter-spacing: -0.393921px;
     margin-top: 35px;
+    color: #000;
   }
   footer > div:nth-child(3) {
     align-items: center;
@@ -643,6 +647,10 @@ body {
     .mb_none {
       display: none !important;
     }
+
+    .work_item > p{
+      font-size: 22px;
+    }
   
     .dt_none {
       display: block;
@@ -658,6 +666,9 @@ body {
     }
   
     .header_top {
+      position: fixed;
+      background-color: #fff;
+      z-index: 12121121;
       width: 100%;
       margin: 0;
       padding-top: 0;
@@ -690,7 +701,7 @@ body {
     .header_content > div {
       width: fit-content;
       margin: 0 auto;
-      padding-top: 35px;
+      padding-top: 85px;
     }
     .header_content > div > h1 {
       margin-top: 20px;
@@ -794,6 +805,7 @@ body {
     .about > div {
       display: block;
       text-align: center;
+      margin: 0 20px;
       margin-top: 100px;
     }
     .about > div > h1 {
@@ -804,10 +816,9 @@ body {
       margin: 0 auto;
       margin-top: 30px;
     }
-    .about > div > div {
-      text-align: center;
-    }
+
     .about > div > div > p {
+      display: block !important;
       margin: 0 auto;
       margin-top: 40px;
     }
@@ -902,4 +913,9 @@ body {
     footer > div:nth-child(3) > p {
       margin-top: 33px;
     }
+  }
+
+
+  .about > div > div:nth-child(2){
+    margin-top: 0;
   }
