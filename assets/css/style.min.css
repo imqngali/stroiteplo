@@ -664,6 +664,10 @@ body {
       background-image: none;
       height: auto;
     }
+
+    footer > div:nth-child(2) > div > p, a{
+      margin-top: 0 !important;
+    }
   
     .header_top {
       position: fixed;
