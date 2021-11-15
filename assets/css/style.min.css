@@ -670,7 +670,11 @@ body {
     }
 
     footer > div:nth-child(2) > div > p, a{
-      margin-top: 0 !important;
+      margin-top: 0;
+    }
+
+    .header_content>div>a{
+      margin-top: 35px;
     }
   
     .header_top {
