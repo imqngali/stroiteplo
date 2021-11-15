@@ -655,6 +655,10 @@ body {
     .dt_none {
       display: block;
     }
+
+    .modal{
+      top: 50px;
+    }
   
     header {
       background-image: none;
