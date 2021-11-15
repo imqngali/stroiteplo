@@ -494,7 +494,6 @@ body {
     font-size: 14px;
     line-height: 17px;
     letter-spacing: -0.393921px;
-    margin-top: 35px;
     color: #000;
   }
   footer > div:nth-child(3) {
@@ -930,4 +929,8 @@ body {
 
   .about > div > div:nth-child(2){
     margin-top: 0;
+  }
+
+  .services_inner > div > div > div:last-child > div:last-child{
+    display: none;
   }
